@@ -2,7 +2,7 @@ import { testimonials } from "../constants";
 
 const Testimonial = () => {
   return (
-    <div className='mt-10 tracking-wide'>
+    <div className='mt-10 tracking-wide' id="testimonial">
         <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">What people are saying</h2>
         <div className="flex flex-wrap justify-center">
             {testimonials.map((testimonial, index) => (
